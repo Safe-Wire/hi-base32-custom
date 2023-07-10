@@ -1,6 +1,6 @@
 {
-  "name": "hi-base32",
-  "version": "0.5.1",
+  "name": "hi-base32-custom",
+  "version": "0.5.1-custom",
   "description": "A simple Base32 encode / decode function for JavaScript supports UTF-8 encoding.",
   "main": "src/base32.js",
   "types": "index.d.ts",

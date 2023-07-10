@@ -17,12 +17,12 @@
   }
   var COMMON_JS = !root.HI_BASE32_NO_COMMON_JS && typeof module === 'object' && module.exports;
   var AMD = typeof define === 'function' && define.amd;
-  var BASE32_ENCODE_CHAR = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567'.split('');
+  var BASE32_ENCODE_CHAR = 'BCDEFGHJKLMNPQRSTVWXYZ0123456789'.split('');
   var BASE32_DECODE_CHAR = {
-    'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8,
-    'J': 9, 'K': 10, 'L': 11, 'M': 12, 'N': 13, 'O': 14, 'P': 15, 'Q': 16,
-    'R': 17, 'S': 18, 'T': 19, 'U': 20, 'V': 21, 'W': 22, 'X': 23, 'Y': 24,
-    'Z': 25, '2': 26, '3': 27, '4': 28, '5': 29, '6': 30, '7': 31
+    'B': 0, 'C': 1, 'D': 2, 'E': 3, 'F': 4, 'G': 5, 'H': 6, 'J': 7, 'K': 8,
+    'L': 9, 'M': 10, 'N': 11, 'P': 12, 'Q': 13, 'R': 14, 'S': 15, 'T': 16,
+    'V': 17, 'W': 18, 'X': 19, 'Y': 20, 'Z': 21, '0': 22, '1': 23, '2': 24,
+    '3': 25, '4': 26, '5': 27, '6': 28, '7': 29, '8': 30, '9': 31
   };
 
   var blocks = [0, 0, 0, 0, 0, 0, 0, 0];
